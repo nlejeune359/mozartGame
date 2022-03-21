@@ -866,7 +866,7 @@ class DataBaseActor () extends Actor {
     def receive = {
         case GetMeasure (num) => {
             sender ! measures(num)
-            }
+        }
     }
 
 
